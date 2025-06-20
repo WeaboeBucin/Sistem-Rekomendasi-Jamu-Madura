@@ -1,0 +1,41 @@
+.navbar-login{
+    background-color: #AAB396;
+    font-family: 'Poligon Black';
+    color: #674636;
+}
+
+.navbar-login .navbar-brand {
+    color: #674636;
+    margin-left: 40px;
+}
+
+.form-login{
+    width: 60%; 
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+body {
+    background-color: #674636; /* Warna latar belakang utama */
+    background-image: linear-gradient(90deg, rgba(103, 70, 54, 0.8) 70%, rgba(103, 70, 54, 0) 100%), url('../img/background.jpg'); /* Efek gradien + gambar */
+    background-size: cover; /* Ukuran gambar */
+    background-repeat: no-repeat; /* Jangan ulang gambar */
+    background-position: right top; /* Posisi gambar di kanan atas */
+    color: #F7EED3; /* Warna teks default */
+    margin: 0; /* Hilangkan margin bawaan */
+    height: 100vh; /* Pastikan body mengambil tinggi penuh */
+    position: relative;
+    z-index: -1; /* Membuat gambar latar belakang tetap di belakang elemen lain */
+  }
+
+  .content {
+    padding: 20px;
+    font-family: 'Poligon Black';
+    width: 50%; /* Konten hanya mengambil sebagian lebar */
+    margin: 50px auto; /* Konten di tengah dengan jarak atas/bawah */
+    background-color: rgba(170, 179, 150, 0.5); /* Konten dengan sedikit transparansi */
+    border-radius: 10px; /* Membulatkan sudut konten */
+    color: #674636; /* Warna teks di dalam konten */
+  }
+  

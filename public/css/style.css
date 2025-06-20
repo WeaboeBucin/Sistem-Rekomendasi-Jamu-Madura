@@ -1,0 +1,161 @@
+body{
+    background-color: #F7EED3;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bawah{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bawah img{
+    width: 250px;
+}
+
+.cards{
+    display: flex;
+    background-color: #FFF;
+    height: 300px;
+    width: 250px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.cards:last-child{
+    margin-right: 0;
+}
+
+.cards img{
+    width: 150px;
+}
+
+.cards h5{
+    background-color: #AAB396;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulir{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inputan{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputkhasiat{
+    width: 500px;
+    border-radius: 5px 0px 0px 5px;
+    height: 45px;
+    border: solid 3px #674636;
+    padding-left: 20px;
+    color: #674636;
+}
+
+.inputkhasiat::placeholder{
+    color: #674636;
+    opacity: 80%;
+}
+
+.judul{
+    background-color: #AAB396;
+    width: 70%;
+    margin-bottom: 50px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 500px 500px;
+}
+
+.judul h1{
+    font-weight: bold;
+}
+
+.juduls{
+    margin-top: 30px;
+}
+.juduls h1{
+    font-weight: bold;
+}
+
+.labelkhas{
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.product{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rekom{
+    margin-top: 50px;
+}
+
+.rekom a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #674636;
+}
+
+.rekom a:hover{
+    color: #F7EED3;
+    background-color: #674636;
+    border: 3px solid #674636;
+}
+
+.tombol{
+    background-color: #AAB396;
+    border: solid 3px #674636;
+    width: 300px;
+    border-radius: 0px 5px 5px 0px;
+    height: 45px;
+    font-weight: bold;
+    color: #674636;
+}
+
+.tombol:hover{
+    background-color: #674636;
+    color: #F7EED3;
+}
+
+.jamu-info {
+    background-color: #F7EED3;
+    border-radius: 8px;
+    padding: 12px;
+}
+.jamu-info .list-group-item {
+    background-color: transparent;
+}
+.col-md-5 img {
+    max-height: 350px;
+    object-fit: cover;
+}
